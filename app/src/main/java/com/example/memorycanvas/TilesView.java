@@ -55,7 +55,7 @@ public class TilesView extends View {
     int openedCard = 0;
     // количество карт
     int count_cards_row = 4;
-    int count_cards_col = 2;
+    int count_cards_col = 4;
     // массив цветов
     ArrayList<Integer> colors;
     // использованные цвета
@@ -87,10 +87,10 @@ public class TilesView extends View {
         colors.add(Color.RED);
         colors.add(Color.GREEN);
         colors.add(Color.YELLOW);
-//        colors.add(Color.WHITE);
-//        colors.add(Color.GRAY);
-//        colors.add(Color.BLACK);
-//        colors.add(Color.CYAN);
+        colors.add(Color.WHITE);
+        colors.add(Color.GRAY);
+        colors.add(Color.BLACK);
+        colors.add(Color.CYAN);
         amountColors = colors.size();
     }
 
